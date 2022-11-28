@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 60px ;
+}
+.headleft{
+    color: #00f;
+    width: 500px;
+}
+.in{
+    color: #fff;
+    background-color: #00f;
+}
+.headright{
+    display: flex;
+    width: 650px;
+}
+.link1{
+    list-style-type: none;
+    display: flex;
+}
+.links a:hover{
+    color: #000;
+}
+i{
+    margin-left: 15px;
+}
+.link1 a{
+    text-decoration: none;
+    color: rgb(107, 101, 101);
+    margin-right: 25px;
+    font-size: 18px;
+}
+.login{
+    border-left: 2px solid gray;
+    height: 40px;
+}
+.joinnow,.signin a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.joinnow:hover{
+    background-color: rgb(226, 215, 215);
+    border-radius: 30px;
+}
+.signin{
+    border: 2px solid #00f;
+    border-radius: 30px;
+    padding: 10px;
+    color: #00f;
+}
+.signin:hover{
+    background-color: rgb(169, 196, 207);
+    border-radius: 30px;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.part1-right{
+ width: 50%;
+}
+.part1-right img{
+    width: 100%;
+}
+.part1-left{
+    padding-left: 60px ;
+    width: 50%;
+}
+.part1-left h1{
+    font-size: 3rem;
+    width: 80%;
+}
+form a{
+    margin: 10px 0;
+    color: #000;
+}
+form input{
+    margin: 10px 0;
+    width: 300px;
+    height: 40px;
+}
+button{
+    background-color: rgb(37, 164, 244);
+    color: #fff;
+    font-size: 18px;   
+    margin: 10px 0;
+    width: 300px;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(227, 223, 223);
+    height: 400px;
+}
+.part2-right a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px ;
+    padding: 10px 20px;
+    border: 2px solid black;
+    height: 60px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.part2-right a:hover{
+    background-color: #fff;
+}
+.part2-right{
+    width: 60%;
+
+}
+.part2-left{
+    width: 40%;
+}
+.part2-right h4{
+    padding: 20px;
+}
+.part2-left h1{
+    width: 65%;
+    font-size: 3rem;
+}
